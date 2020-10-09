@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: cmc_overworld_trees.ma
-//Last modified: Thu, Oct 08, 2020 06:33:20 PM
+//Last modified: Thu, Oct 08, 2020 06:36:26 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -14,14 +14,14 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C9AC6AFA-430B-A75F-588C-3F9001BD1E97";
-	setAttr ".t" -type "double3" -9.4451425233033302 15.093713690456841 33.353158168750966 ;
-	setAttr ".r" -type "double3" -380.13835203181395 32751.800000000818 6.0251396644090964e-16 ;
+	setAttr ".t" -type "double3" -10.808536842508573 23.198240064390596 28.798468983589984 ;
+	setAttr ".r" -type "double3" -395.1383520319211 32747.799999999614 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "51B0FFE1-4384-6E95-CDAA-8D97FF2BCD21";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
 	setAttr ".fcp" 15240;
-	setAttr ".coi" 35.044395718735004;
+	setAttr ".coi" 35.044395718734066;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
